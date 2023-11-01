@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(211, 255, 140);
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone .haha {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+
+.haha .bruh {
+    background: rgb(0, 0, 0);
+    width: 250px;
+    height: 400px;
+    border-radius: 25px;
+    margin: 50px;
+    transition: 0.75s;
+}
+
+.bruh:hover {
+    background:rgb(255, 255, 255);
+    margin: 80px;
+    width: 900px;
+    transition: 0.75s;
+}
